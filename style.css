@@ -1,0 +1,76 @@
+*{margin:0;padding:0;}
+html{scroll-behavior:smooth;}
+table{border-spacing: 7px 5px;}
+.line{width:100%;}
+hr{width:40%;height:5px;background-color:black;margin:80px auto;}
+a{text-decoration:none;color:#542969;}
+h1{font-family:copperplate gothic, Helvetica ;font-size:46pt;}
+p{font-family:arial;}
+
+.content{background-color:rgba(255,255,255,.8);padding:50px;position:absolute;text-align:center;}
+#cnt1{max-width:550px;margin:auto;padding-top:220px;}
+#cnt2{max-width:760px;margin:auto;padding-top:45px;}
+#cnt1rus{max-width:550px;margin:auto;padding-top:220px;padding-right:130px;}
+#cnt2rus{max-width:550px;margin:auto;padding-top:45px;padding-right:150px;}
+#cnt1eng{max-width:550px;margin:auto;padding-top:220px;margin-left:350px;}
+#cnt2eng{max-width:550px;margin:auto;padding-top:45px;padding-right:150px;}
+
+#div1{background-color:black;height:100px;width:100%;position:fixed;color:white;margin:auto;z-index:15;font-size:18pt;}
+#head{max-width:1200px;margin:auto;}
+#logo2{height:80px;float:left;margin-top:12px;}
+#lang1{height:35px;margin-top:30px;float:right;padding:5px;}
+#lang2{height:35px;margin-top:30px;float:right;padding:5px;}
+#lang3{height:35px;margin-top:30px;float:right;padding:5px;}
+#menu{color:white;float:left;margin-top:35px;margin-left:50px;font-size:18pt;font-family:copperplate gothic;}
+
+#div2{height:520px;width:100%;position:static;z-index:13;max-width:1200px;margin:auto;font-size:18pt;}
+#headtext1{text-align:center;font-size:46pt;padding-top:290px;position:static;z-index:14;}
+.bg {animation:slide 3s ease-in-out infinite alternate;background-image: linear-gradient(-90deg, #ac3fbc 50%, #ffc90e 50%);bottom:0;left:0%;
+opacity:.5;position:absolute;right:0%;top:0;z-index:-1;height:520px;}
+.bg2{animation-direction:alternate-reverse;animation-duration:8.5s;}
+.bg3{animation-duration:10s;}
+@keyframes slide{0% {transform:translateX(-30%);}100% {transform:translateX(0%);}}
+
+#div3{height:350px;width:100%;max-width:1200px;margin:auto;position:static;z-index:12;margin-bottom:20px;margin-top:20px;font-size:18pt;}
+#logo3{height:300px;}
+
+#div4{height:250px;width:100%;background-color:#ac3fbc;position:static;z-index:11;font-size:18pt;}
+#headtext2{position:static;z-index:10;}
+
+#div5{height:400px;max-width:1200px;margin:auto;position:static;z-index:9;font-size:18pt;margin-top:30px;}
+#plenka{height:200px;padding-top:80px;padding-right:50px;}
+#div5 a:hover{text-decoration:#542969 wavy underline;color:black;}
+
+#div6{height:350px;max-width:1200px;margin:auto;position:static;z-index:8;font-size:18pt;}
+#fp1{height:300px;}
+
+#div7{height:300px;max-width:1200px;margin:auto;position:static;z-index:7;font-size:18pt;}
+.fps{height:250px;margin-left:100px;box-shadow:#ac3fbc -10px 10px, #ffc90e -20px 20px;}
+
+#div8{height:350px;width:100%;max-width:1200px;margin:auto;position:static;z-index:6;font-size:18pt;}
+#gof1{height:300px;}
+
+#div9{height:300px;max-width:1200px;margin:auto;position:static;z-index:5;font-size:18pt;}
+.gofs{height:250px;margin-left:100px;box-shadow:#ac3fbc -10px 10px, #ffc90e -20px 20px;}
+
+#div10{height:100px;position:static;z-index:4;margin:auto;max-width:1200px;text-align:center;font-size:18pt;}
+
+#div11{height:1400px;max-width:1200px;font-size:18pt;margin:auto;}
+.imgmerch{width:560px;box-shadow:#ac3fbc -10px 10px, #ffc90e -20px 20px;margin:18px;}
+
+#div12{height:300px;width:100%;background-color:black;color:white;position:static;z-index:3;font-size:18pt;font-size:16pt;}
+#content{width:1000px;margin:auto;}
+#logofooter{height:150px;margin-top:50px;}
+#fund{height:150px;margin-top:50px;margin-right:20px;}
+.contactlogos{width:50px;}
+.contacttext{margin-top:50px;}
+
+footer{height:50px;width:100%;background-color:black;color:white;text-align:center;position:static;z-index:2;font-size:10pt;font-family:arial;}
+footer a{color:white;}
+
+#mySidenav{font-family:copperplate gothic;font-size:26pt;}
+.sidenav{height:100%;width:0;position:fixed;top:0;left:0;background-color:black;overflow-x:hidden;transition:0.5s;padding-top:60px;z-index:16;}
+.sidenav a{padding:8px 8px 8px 32px;text-decoration:none;font-size: 25px;color:white;display: block;transition: 0.3s;}
+.sidenav a:hover {color: #ffc90e;}
+.sidenav .closebtn {position: absolute;top: 0;right: 25px;font-size: 36px;margin-left: 50px;}
+@media screen and (max-height: 450px) {.sidenav {padding-top: 15px;}.sidenav a {font-size: 18px;}}
